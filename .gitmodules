@@ -19,3 +19,6 @@
 [submodule "tactile_sim"]
 	path = tactile_sim
 	url = git@github.com:mbrummelhuis/tactile_sim.git
+[submodule "ursim"]
+	path = ursim
+	url = https://github.com/Pugens/ursim.git
