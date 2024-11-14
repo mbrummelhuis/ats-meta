@@ -1,0 +1,21 @@
+[submodule "tactile_servo_control"]
+	path = tactile_servo_control
+	url = git@github.com:mbrummelhuis/tactile_servo_control.git
+[submodule "tactile_learning"]
+	path = tactile_learning
+	url = git@github.com:mbrummelhuis/tactile_learning.git
+[submodule "tactile_image_processing"]
+	path = tactile_image_processing
+	url = git@github.com:mbrummelhuis/tactile_image_processing.git
+[submodule "tactile_data_shear"]
+	path = tactile_data_shear
+	url = git@github.com:mbrummelhuis/tactile_data_shear.git
+[submodule "tactile_data"]
+	path = tactile_data
+	url = git@github.com:mbrummelhuis/tactile_data.git
+[submodule "common_robot_interface"]
+	path = common_robot_interface
+	url = git@github.com:mbrummelhuis/common_robot_interface.git
+[submodule "tactile_sim"]
+	path = tactile_sim
+	url = git@github.com:mbrummelhuis/tactile_sim.git
