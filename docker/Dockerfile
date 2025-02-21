@@ -34,9 +34,11 @@ RUN pip3 install -U \
 
 WORKDIR /workspace
 
+RUN git clone --recurse-submodules https://github.com/mbrummelhuis/ats-meta.git
+
 # Entrypoint
 COPY docker/entrypoint.sh /entrypoint.sh
-ENTRYPOINT ["/bin/bash", "/entrypoint.sh"]
+ENTRYPOINT ["/bin/bash"]
 
 # CMD is executed and replaced to any arguments passed
-CMD ["python3 tactile_servo_control/tactile_servo_control/learning/launch_hyper_training.py -r ur -s tactip -m simple_cnn -t surface_3d"]
+# CMD ["python3 tactile_servo_control/tactile_servo_control/learning/launch_hyper_training.py"]

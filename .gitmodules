@@ -1,30 +1,30 @@
 [submodule "tactile_servo_control"]
 	path = tactile_servo_control
-	url = git@github.com:mbrummelhuis/tactile_servo_control.git
+	url = https://github.com/mbrummelhuis/tactile_servo_control.git
 	branch = readme-maintenance
 [submodule "tactile_learning"]
 	path = tactile_learning
-	url = git@github.com:mbrummelhuis/tactile_learning.git
+	url = https://github.com/mbrummelhuis/tactile_learning.git
 	branch = tactile-drone
 [submodule "tactile_image_processing"]
 	path = tactile_image_processing
-	url = git@github.com:mbrummelhuis/tactile_image_processing.git
+	url = https://github.com/mbrummelhuis/tactile_image_processing.git
 	branch = tactile-drone
 [submodule "tactile_data_shear"]
 	path = tactile_data_shear
-	url = git@github.com:mbrummelhuis/tactile_data_shear.git
+	url = https://github.com/mbrummelhuis/tactile_data_shear.git
 	branch = tactile-drone
 [submodule "tactile_data"]
 	path = tactile_data
-	url = git@github.com:mbrummelhuis/tactile_data.git
+	url = https://github.com/mbrummelhuis/tactile_data.git
 	branch = tactile-drone
 [submodule "common_robot_interface"]
 	path = common_robot_interface
-	url = git@github.com:mbrummelhuis/common_robot_interface.git
+	url = https://github.com/mbrummelhuis/common_robot_interface.git
 	branch = tactile-drone
 [submodule "tactile_sim"]
 	path = tactile_sim
-	url = git@github.com:mbrummelhuis/tactile_sim.git
+	url = https://github.com/mbrummelhuis/tactile_sim.git
 	branch = tactile-drone
 [submodule "ursim"]
 	path = ursim
