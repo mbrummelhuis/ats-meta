@@ -29,7 +29,8 @@ RUN pip3 install -U \
     seaborn==0.13.2 \
     hyperopt \
     pybullet \
-    tensorboard
+    tensorboard \
+    opensimplex
 
 WORKDIR /workspace
 
@@ -38,4 +39,4 @@ COPY docker/entrypoint.sh /entrypoint.sh
 ENTRYPOINT ["/bin/bash", "/entrypoint.sh"]
 
 # CMD is executed and replaced to any arguments passed
-CMD [""]
+CMD ["-r ur -s tactip -m simple_cnn -t surface_3d"]

@@ -10,4 +10,4 @@
 # --privileged -- give the container full access to the host system (needed for GPIO)
 # --mount -- bind a volume to the container, this is handy for active development as you can develop on the host and it gets automtically updated in the container
 
-docker run -it --rm --name tactip-container --network=host --ipc=host --privileged --mount type=bind,src=$PWD,dst=/workspace mbrummelhuis/tactip-dev:latest
+docker run -it --name tactip-container --network=host --ipc=host --privileged --mount type=bind,src=$PWD,dst=/workspace mbrummelhuis/tactip-dev:latest
