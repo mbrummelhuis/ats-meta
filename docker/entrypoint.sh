@@ -12,4 +12,4 @@ cd tactile_learning && pip install -e . && cd ..
 cd tactile_sim && pip install -e . && cd ..
 
 # Launch hyperparam training
-python3 tactile_servo_control/tactile_servo_control/learning/launch_hyper_training.py "$@"
+echo "Running CMD: $@"

@@ -39,4 +39,4 @@ COPY docker/entrypoint.sh /entrypoint.sh
 ENTRYPOINT ["/bin/bash", "/entrypoint.sh"]
 
 # CMD is executed and replaced to any arguments passed
-CMD ["-r ur -s tactip -m simple_cnn -t surface_3d"]
+CMD ["python3 tactile_servo_control/tactile_servo_control/learning/launch_hyper_training.py -r ur -s tactip -m simple_cnn -t surface_3d"]
