@@ -3,13 +3,11 @@
 # Enable error signals
 set -e
 
-# Install the TacTip packages in the container
-cd tactile_data && pip install -e . && cd ..
-cd tactile_data_shear && pip install -e . && cd ..
-cd tactile_servo_control && pip install -e . && cd ..
-cd tactile_image_processing && pip install -e . && cd ..
-cd tactile_learning && pip install -e . && cd ..
-cd tactile_sim && pip install -e . && cd ..
-
 # Launch hyperparam training
-echo "Running CMD: $@"
+# -r robot (ur)
+# -s sensor (tactip)
+# -m model (simple_cnn)
+# -t task (surface_3d)
+# -mv model version (0)
+python3 /workspace/ats-meta/tactile_servo_control/tactile_servo_control/learning/launch_hyper_training.py -r ur -s tactip -m simple_cnn -t surface_3d -mv docker-test
+exec /bin/bash
