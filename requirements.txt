@@ -7,7 +7,6 @@ asttokens==2.4.1
 builtin-interfaces==2.0.2
 cloudpickle==3.0.0
 comm==0.2.2
--e git+ssh://git@github.com/mbrummelhuis/common_robot_interface.git@340d30f927521d6d6190eeb8acda5632bc9546a4#egg=common_robot_interface
 composition-interfaces==2.0.2
 contourpy==1.3.0
 cv-bridge==4.1.0
